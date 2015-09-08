@@ -20,8 +20,24 @@ from lib.checkURLThread import checkURLThread
 
 # Main method
 def main():
+	emailList = []
 	g1 = googleSearch("accounting firms auckland")
-	print(g1.returnWebsiteList())
-	
+
+	thread1 = checkURLThread("Thread-1")
+	thread2 = checkURLThread("Thread-2")
+
+	thread1.start()
+	thread2.start()
+
+	for url in g1.getWebsiteList():
+		thread1.insertURL(url)
+		thread1.run()
+
+
+	# thread1.insertURL("www.allangibson.co.nz")
+	# thread2.insertURL(g1.returnWebsiteList()[1])
+
+	# thread1.start()
+
 
 main()
