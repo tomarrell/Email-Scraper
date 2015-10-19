@@ -15,6 +15,6 @@ Where each string in the argument array is a new Google Search term to scrape.
 ## Output
 Emails will all be output on a new line in /data/emails.txt. These include duplicates, it is recommended you put these through an online tool to remove duplicates. It has been noticed image URL's will slip through the regex expression, these can be found by searching the file for "png" or "jpeg."
 
-# Disclaimer
+## Disclaimer
 This program is provided as is for educational use only. By using this program you agree to waive the developer of any responsibilities that occur due to your use of the program or its output.
 
