@@ -7,7 +7,7 @@ The program requires installation of the following Python packages:
 - beautifulsoup4
 Use "pip install [PackageName]" in the command line to install the above dependencies.
 
-# Usage
+## Usage
 Navigate to the program's root directory in your command line and run the command:
 python main.py ["Google", "Search Terms", "Here"]
 Where each string in the argument array is a new Google Search term to scrape.
