@@ -1,5 +1,5 @@
 # Email Scraper
-A program to scrape Google searches for websites, then scrapes the search results for email addresses and the same on their respective contact pages. If no emails are found, the program will take a guess.
+A program to scrape Google searches for websites, then attempts to match regex in the search results for email addresses and the same on their respective contact pages. If no emails are found, the program will take a guess.
 
 ## Installation
 The program requires installation of the following Python packages:
